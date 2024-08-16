@@ -14,5 +14,7 @@ export class ParentComponent{
   receivedMsg($event: string){
     this.msg1 = $event;
   }
+
+  prntMsg: string = 'Msg from parent';
   
 }

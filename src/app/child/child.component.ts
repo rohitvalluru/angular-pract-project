@@ -14,5 +14,7 @@ export class ChildComponent {
   sendMsg(){
     this.msgEvent.emit(this.message)
   }
+
+  @Input() msgFromPrnt !: string;
   
 }
